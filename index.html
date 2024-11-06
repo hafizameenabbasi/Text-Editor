@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>TEXT EDITOR</h1>
+      </div>
+    </div>
+    <div class="btnGroup">
+      <button onclick="boldf1()">Bold</button>
+      <button onclick="italicf2()">Italic</button>
+      <button onclick="leftf3()">Left</button>
+      <button onclick="center()">Center</button>
+      <button onclick="right()">Right</button>
+      <button onclick="upperCase()">Uppercase</button>
+      <button onclick="lowerCase()">Lowercase</button>
+      <button onclick="capitalize()">Capitalize</button>
+      <input  type="color" id="colorpanel" />
+      <button onclick="clearText()">Clear Text</button>
+    </div>
+
+    <div class="boxParent">
+      <textarea type="text" id="inputText" placeholder="Text here"></textarea>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
